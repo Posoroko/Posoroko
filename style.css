@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 100;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.loader{
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.mainSection{
+    width: 100%;
+    height: 100%;
+    background-color: #1b1d19;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.posoroko{
+    font-size: 100px;
+    color: white;
+    position: relative;
+}
+.dev{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    bottom: 10vh;
+}
